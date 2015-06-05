@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Oracle - @192.168.254.42" uuid="b63f3e86-edbe-4506-8a56-7c16d5f55228">
+    <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="BRUNKB" catalog=""/>
+    <table name="MYCLOBS" schema="BRUNKB" catalog="" type="TABLE">
+      <column name="ID" sqlType="NUMBER" precision="0" scale="-127" nullable="false" jdbcType="3" version="true"/>
+      <column name="DATA" sqlType="CLOB" precision="4000" scale="0" nullable="true" jdbcType="2005"/>
+      <column name="DATE_CREATED" sqlType="TIMESTAMP(6)" precision="11" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="PK_MYCLOBS" columns="ID"/>
+    </table>
+    <table name="MYCLOB_SEQ" schema="BRUNKB" catalog="" type="SEQUENCE"/>
+  </data-source>
+</component>
